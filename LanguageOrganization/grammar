@@ -1,0 +1,39 @@
+作者：云天明
+链接：https://www.zhihu.com/question/63803134/answer/223403587
+来源：知乎
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+1.	The noun ”method” is used many many times through abstract. I would try to reformulate some sentences and use the nouns ”scheme” or ”discretization” as alternatives. 这条意见是讲英文论文中词汇要尽可能丰富多彩一些，不要总是用一个词。所以后来我平时读英语文章的时候会注意搜集一些近义、同义词，比如: 采用，adopt use utilize employ;表示、描述\说明， represent show indicate depict illustrate give elucidate;提供、提出， contribute provide propose represent; （谁）发展、提供、提出、展示（了什么方法...): report show give offer develop image devise; 要求：require ask demand call. 这些词汇记录小本子上，等论文基本完稿之后拿出来对照看一看，将论文中重复的相关词汇替换下来，很有帮助。
+2.	Second line: ”...to represent THE solution IN each cell...”; i.e. I would add ”the” and replace ”at” with ”in”. 原文中缺少the。一般特指的、第一次出现的名词重复出现的时候都要用the。其它的用法般语法书中都有，不详述。然后是介词in,at,of,on,for之类的要尽量准确。
+3.	Third line: please add a space between freedoms and the first parenthesis. 原文The degree of freedoms(DOFs)， (DOFs)前面要留下空格。（那位审稿人细心程度可见一斑）。
+4.	如果水平不足以把握长句，尽量用短句表明清楚意思。好几条意见都是关于长句的理解问题。
+5.	The adverb ”So” is used to start and connect two sentences. I would replace it with formal adverbs like ”Therefore, In fact, etc.”.
+6.	I believe that ”differentiate operators” is not correct. I think the Author should use ”differential operators” or ”differentiation operators”. Please, apply this correction through all the manuscript.一些词汇不准确。我后来对于自己感觉比较模糊的词汇，都会上网搜索一下，看看一般大家都怎样用的。
+7.	End of the fourth line/beginning of the fifth line: the comma is preceded by a wrong additional space. 标点不能出现在行首。
+8.	The acronyms ENO and WENO are immediately used without explicitly state what they mean. Moreover, the full name for discontinuous Galerkin is used without introducing the acronym which will be useful later on. I think the Authors should try to be consistent and introduce acronyms after the full name of the method has been spelled. 缩写词应该先写其完全形式并跟以缩写，后面才可以直接使用缩写。
+9.	I would replace ”divergences” with ”the divergence”. 可数不可数要弄清楚。文章中这里表示散度，应当是不可数的。
+10.	Add a space between ”Sobolev type” and reference [28]. 引用的中括号与前面的词语中间要有空格。
+11.	I think ”Schoberl ” should be replaced by ”Schöberl ”. Please correct the umlaut of the vowel ”o”, i.e ”ö” (here and in the bibliography). 参考文献的作者名字里面带有特殊符号的要注意，不能忽略。
+12.	I would remove ”H.” in front of Luo. 一般在正文中引用参考文献的作者的时候只写作者的姓。
+13.	I would use the complete word ”Section” and not ”Sec.”. 在指出第几节写了什么东西的时候，用Section,不用Sec.
+14.	Add a full stop after system (1). 这点尤其应该注意，公式也是一个句子的组成部分，所以当句子在公式这里结束的时候，公式后面一定要有句号，如果句子没有结束，后面跟着什么从句，如果要加逗号，也不能省略。总之，把公式当一个单词看待，后面该有标点就不能省略。
+15.	Page 4, first line: ”...accuracy higher than second.” First of all ”second” should be replaced by ”two”. 序数词与基数词的使用
+16.	After Equation (10), a sentence starts with ”And”. I do not think this is grammatically correct. 句首一般不用“And". 
+17.	Just before Equation (11): ”...is the degrees of freedom...” should be ”...are the degrees of freedom...”. 第三人称单复数形式，全文写完后应该仔细审查一下这个。
+18.	Just after Equation (11): ”Notice that F_k is the numerical flux ...”, i.e. add ”the”. F_k前面要有the.
+19.	Second line after Equation (11): ”triangular” should be ”triangle”. Moreover, ”...the remainder are allocated interior.” is wrong. Please, correct the syntax.
+20.	Add a full stop after Equation (12). 同第14条。后续的这方面的意见就不贴了。
+21.	I believe the paragraph from ”By introducing the nondimensional wave number ...” to equation (34) is too long and not well written. Could you please split it in few sentences and re-phrase it? 同第4条。
+22.	I would not start with ”At first,...”. 
+23.	Table 3: Please add spaces between words and parenthesis, e.g. ”P1(Standard)” should be ”P1 (Standard)”. 还是标点前的空格问题。
+24.	Please, try to be consistent with the spelling of the words; e.g. some time ”nonlinear” is used and in other places ”non-linear” is employed. 表达应该统一的问题。
+25.	Check punctuation through the paper; captions included (add full stop at the end of the caption). 表格、图片的标题也是完整的句子，应该有标点符号。
+26.	Check the spacing when you use the parenthesis.
+27.	Please run an accurate spell checker and read carefully each sentence.
+28.	Please, use/check the article ”the” through all the manuscript.Please check the spacing in the references. I believe you should add a space between the first letter of the first author’s name and his/her family name. Some name are not consistently spelled:
+– decide if you want to spell the full first name or not;
+– write the initial of the first name or the full first name before the family name;
+– in some paper’s titles you use the capital letter for each word; in other title this is not done.
+最后一条是关于参考文献的。参考文献中作者的拼写要统一，统一缩写名或者统一写全名；文献标题拼写要统一，统一首单词的首字母大写或者统一所有非虚词首字母大写；期刊名字要也统一写全称或者简称；年卷期、页码按期刊要求统一。
+最后推荐一个Linux下的拼写检查工具：aspell, 一般一行命令aspell -l en -c ./paper.tex，然后会出来交互式窗口，跟着选择是忽略(i)或者按数字键从候选的更正项里面选择替换项就可以了。
+
+
